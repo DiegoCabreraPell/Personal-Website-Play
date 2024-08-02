@@ -13,13 +13,11 @@
         <title>@title</title>
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
-        <div>
-            <ul id="navbar">
-                <li><button>Home</button></li>
-                <li><button>About Me</button></li>
-                <li><button>Projects</button></li>
-                <li><button>Contact Me</button></li>
-            </ul>
+        <div class="navbar">
+            <a href="">Home</a>
+            <a href="">Resume</a>
+            <a href="">Projects</a>
+            <a href="#contactInfo" id="Contact">Contact Me</a>
         </div>
             
     </head>
@@ -28,7 +26,7 @@
          * the page content. *@
         @content
 
-        <div class="footer">
+        <div id="contactInfo" class="footer">
             <b>Contact me:</b>
             <div class="indented">
                 email: diegocabrerapell@@gmail.com<br>

@@ -1,24 +1,28 @@
-#navbar {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color: #220b2f;
+.navbar {
+	background-color: #254336;
+	overflow: hidden;
 }
 
-#navbar li {
+.navbar a {
 	float: left;
+	color: #b7b597;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
-#navbar li button {
-	display: block;
-	padding: 10px;
-	color: gray;
-	background-color: #220b2f;
-	border: none;
-}
-
-#navbar li button:hover {
+.navbar a.active {
 	background-color: black;
+}
+
+.navbar a:hover {
+	background-color: #b7b597;
+	color: #254336;
+}
+
+.navbar a#Contact {
+	float: right;
 }
 
 .footer {
