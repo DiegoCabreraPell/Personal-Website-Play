@@ -1,12 +1,11 @@
 body {
 	background-color: #dad3be;
+	margin: 0;
 }
 
 .navbar {
 	background-color: #254336;
 	overflow: hidden;
-	padding: 0px;
-	margin: 0;
 }
 
 .navbar a {
