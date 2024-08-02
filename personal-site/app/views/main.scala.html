@@ -13,13 +13,15 @@
         <title>@title</title>
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
-
-        <ul class="navbar">
-            <li class="nav-item"><button class="nav-box">Home</button></li>
-            <li class="nav-item"><button class="nav-box">About Me</button></li>
-            <li class="nav-item"><button class="nav-box">Projects</button></li>
-            <li class="nav-item"><button class="nav-box">Contact Me</button></li>
-        </ul>
+        <div>
+            <ul id="navbar">
+                <li><button>Home</button></li>
+                <li><button>About Me</button></li>
+                <li><button>Projects</button></li>
+                <li><button>Contact Me</button></li>
+            </ul>
+        </div>
+            
     </head>
     <body>
         @* And here's where we render the `Html` object containing

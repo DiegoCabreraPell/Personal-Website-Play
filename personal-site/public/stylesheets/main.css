@@ -1,17 +1,20 @@
-.navbar {
+#navbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	background-color: #220b2f;
 }
 
-.nav-item {
+#navbar li {
 	float: left;
 }
 
-.nav-box {
+#navbar li button {
 	display: block;
 	padding: 8px;
+	color: gray;
+	background-color: #220b2f;
+	border: none;
 }
 
 .footer {
