@@ -30,24 +30,20 @@ body {
 	float: right;
 }
 
-.footer {
+footer {
     z-index: 10;
 	background-color: #254336;
 	width: 100%;
 	color: #b7b597;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
-	padding-left: 10vw;
-	padding-right: 1vw;
-
-	align-self: center;
 }
 
-.footer .centered {
+footer .centered {
 	align-self: center
 }
 
-.footer a {
+footer a {
 	text-decoration: none;
 	color: #b7b597;
 }
