@@ -31,11 +31,7 @@ body {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     z-index: 10;
-
 	background-color: #254336;
 	width: 100%;
 	color: #b7b597;
