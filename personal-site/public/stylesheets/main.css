@@ -6,10 +6,19 @@
 
 	background-color: #220b2f;
 	width: 100%;
+	color: white;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left: 10vw;
+	padding-right: 1vw;
+
+	align-self: center;
 }
 
 .indented {
 	padding-left: 4em;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .funky{
