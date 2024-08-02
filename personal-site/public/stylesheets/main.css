@@ -4,9 +4,6 @@ body {
 
 .navbar {
 	background-color: #254336;
-	position: absolute;
-	left: 0;
-	top: 0;
 	overflow: hidden;
 	padding: 0px;
 }
