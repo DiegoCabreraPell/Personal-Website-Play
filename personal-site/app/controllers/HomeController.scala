@@ -21,4 +21,12 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def index() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.index())
   }
+
+  /**
+   * Create an Action to render the resume page
+   */
+
+  def resume() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.resume())
+  }
 }
