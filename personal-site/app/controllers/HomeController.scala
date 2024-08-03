@@ -29,4 +29,12 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def resume() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.resume())
   }
+
+  /**
+   * Create an Action to render the projects page
+   */
+
+  def projects() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.projects())
+  }
 }
