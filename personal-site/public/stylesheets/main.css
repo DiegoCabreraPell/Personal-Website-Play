@@ -1,5 +1,6 @@
 header {
 	background-color: #254336;
+	color: #b7b597;
 }
 
 body {
@@ -7,9 +8,7 @@ body {
 	margin: 0;
 }
 
-.header-graphic {
-	background-color: #254336;
-	color: #b7b597;
+header * {
 	margin: 0;
 }
 
