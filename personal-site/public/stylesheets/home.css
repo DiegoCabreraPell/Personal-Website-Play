@@ -10,3 +10,15 @@ section {
     min-height: 25%;
     padding: 5% 20vw;
 }
+
+section>div {
+    display: flex;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.right {
+    align-self: flex-end;
+}
