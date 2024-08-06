@@ -1,0 +1,9 @@
+body {
+    background-image: url("/assets/images/smokybackground.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body * {
+    text-align: center;
+}
