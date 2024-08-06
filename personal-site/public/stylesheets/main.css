@@ -1,3 +1,7 @@
+header {
+	margin: 0;
+}
+
 body {
 	background-color: #dad3be;
 	margin: 0;
@@ -6,7 +10,6 @@ body {
 .header-graphic {
 	background-color: #254336;
 	color: #b7b597;
-	padding: 0;
 }
 
 .navbar {
