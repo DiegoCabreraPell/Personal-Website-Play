@@ -1,7 +1,10 @@
-header * {
-	margin: 0;
+header {
+	z-index: 10;
 	background-color: #254336;
+	width: 100%;
 	color: #b7b597;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 }
 
 body {
