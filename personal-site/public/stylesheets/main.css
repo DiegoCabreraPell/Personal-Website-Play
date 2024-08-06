@@ -1,5 +1,4 @@
 header {
-	margin: 0;
 	background-color: #254336;
 }
 
@@ -11,6 +10,7 @@ body {
 .header-graphic {
 	background-color: #254336;
 	color: #b7b597;
+	margin: 0;
 }
 
 .navbar {
