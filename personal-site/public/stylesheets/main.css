@@ -1,14 +1,11 @@
-header {
+header * {
+	margin: 0;
 	background-color: #254336;
 	color: #b7b597;
 }
 
 body {
 	background-color: #dad3be;
-	margin: 0;
-}
-
-header * {
 	margin: 0;
 }
 
