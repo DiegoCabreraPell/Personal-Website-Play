@@ -3,6 +3,11 @@ body {
 	margin: 0;
 }
 
+.header-graphic {
+	background-color: #254336;
+	color: #b7b597;
+}
+
 .navbar {
 	background-color: #254336;
 	overflow: hidden;
