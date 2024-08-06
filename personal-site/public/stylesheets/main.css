@@ -6,6 +6,7 @@ body {
 .header-graphic {
 	background-color: #254336;
 	color: #b7b597;
+	padding: 0;
 }
 
 .navbar {
