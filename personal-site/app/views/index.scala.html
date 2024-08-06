@@ -1,28 +1,6 @@
 @()
 
-@*
- * Home page static file to allow for special styling.
- *@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Diego Cabrera Pell</title>
-        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
-        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/home.css")">
-        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">    
-    </head>
-    <header>
-        <div class="header-graphic">
-            <h1>Diego Cabrera Pell</h1>
-        </div>
-        <div class="navbar">
-            <a href="/">Home</a>
-            <a href="/resume">Resume</a>
-            <a href="/projects">Projects</a>
-            <a href="#contactInfo" id="Contact">Contact Me</a>
-        </div>
-    </header>
-    <body>
+@main("Home: Diego Cabrera Pell"){}{
         <h1>About Me</h1>
         <img src="/assets/images/htg.png" height="500px" width="334px">
         <section>
@@ -46,12 +24,4 @@
             <p>Libero quod iusto repellat eligendi sapiente sed voluptatibus, nam dignissimos labore vitae soluta fugiat, perferendis cum ex? Nemo qui quis blanditiis omnis deserunt unde recusandae distinctio earum cum, sunt optio.</p>
         </section>
     </body>
-    <footer id="contactInfo">
-        <div>
-            <b>Contact Me:</b><br>
-            email: diegocabrerapell@@gmail.com<br>
-            LinkedIn: <a href="https://www.linkedin.com/in/diego-cabrera-pell-850301261/">Diego Cabrera Pell</a><br>
-            GitHub: <a href="https://github.com/DiegoCabreraPell">Diego Cabrera Pell</a>
-        </div>
-    </footer>
-</html>
+}
