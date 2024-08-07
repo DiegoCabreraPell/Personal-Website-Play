@@ -61,6 +61,10 @@ body h1, h2, h3 {
 	transition: 0.5s;
 }
 
+.navbar a.cur-page {
+	color: white
+}
+
 .navbar a:hover {
 	color: white;
 }
