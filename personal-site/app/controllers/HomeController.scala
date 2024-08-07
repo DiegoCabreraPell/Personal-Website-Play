@@ -37,4 +37,12 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def projects() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.projects())
   }
+
+  /**
+   * Create an Action to render the about page
+   */
+
+  def aboutPage() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.about())
+  }
 }
