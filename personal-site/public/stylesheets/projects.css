@@ -1,0 +1,42 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60vw;
+    min-height: 80vh;
+    column-gap: 5vw;
+    row-gap: 4vw;
+    justify-content: space-between;
+}
+
+.card {
+    width: 16vw;
+    height: 24vw;
+    text-align: center;
+    border: 2px solid darkgray;
+    border-radius: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+.card div {
+    background-color: rgb(100, 100, 100, 0.25);
+    width: 100%;
+    margin-bottom: 25%;
+    padding: 5%;
+}
+
+.card p {
+    color: lightgray;
+    padding: none;
+    margin: none;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
