@@ -10,11 +10,16 @@
 <html lang="en">
     <head>
         <title>@title</title>
+        @*google fonts*@
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+        @*calling stylesheets*@
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
         @stylesheets
-        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">    
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
     </head>
-    <body>
+    <body class="pt-sans-regular">
         <header>
             <div class="header-graphic">
                 <h1>Diego Cabrera Pell</h1>

@@ -1,13 +1,38 @@
+.pt-sans-regular {
+	font-family: "PT Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+  
+.pt-sans-bold {
+	font-family: "PT Sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.pt-sans-regular-italic {
+	font-family: "PT Sans", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.pt-sans-bold-italic {
+	font-family: "PT Sans", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+  
+
 header {
-	background-color: #254336;
 	width: 100%;
-	color: #b7b597;
+	color: white;
 	padding-top: 2vh;
 	padding-bottom: 0vh;
 }
 
 body {
-	background-color: #dad3be;
+	background-color: #101010;
+	color: white;
 	margin: 0;
 }
 
@@ -19,7 +44,7 @@ body {
 
 .navbar a {
 	float: left;
-	color: #b7b597;
+	color: #666;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -27,13 +52,8 @@ body {
 	margin: 0;
 }
 
-.navbar a.active {
-	background-color: black;
-}
-
 .navbar a:hover {
-	background-color: #b7b597;
-	color: #254336;
+	color: white;
 }
 
 .navbar a#Contact {
@@ -42,14 +62,12 @@ body {
 
 footer {
 	text-align: center;
-	background-color: #254336;
 	width: 100%;
-	color: #b7b597;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
 
 footer a {
 	text-decoration: none;
-	color: #b7b597;
+	color: white;
 }
