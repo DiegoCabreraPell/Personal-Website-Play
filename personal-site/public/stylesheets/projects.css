@@ -16,10 +16,11 @@
 }
 
 .card {
+    position: relative;
     width: 16vw;
     height: 24vw;
     text-align: center;
-    border: 2px solid darkgray;
+    border: 1px solid darkgray;
     border-radius: 4%;
     display: flex;
     justify-content: center;
@@ -27,35 +28,36 @@
     flex-wrap: nowrap;
     margin: none;
     padding: none;
+    overflow: hidden;
 }
 
-.card div {
-    background-color: rgb(100, 100, 100, 0.25);
+img.card-background {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(4px);
+}
+
+.card-title {
+    position: absolute;
+    background-color: rgb(50, 50, 50, 0.5);
     width: 100%;
     margin-bottom: 25%;
     padding: 5%;
+    opacity: 1;
 }
 
-.card p {
+.card-description {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.card-title p {
     color: lightgray;
     padding: none;
     margin: none;
     margin-block-end: 0;
     margin-block-start: 0;
-}
-
-#c1 {
-    background-image: url("/assets/images/htg.png");
-}
-
-#c2 {
-    background-image: url("/assets/images/htg.png");
-}
-
-#c3 {
-    background-image: url("/assets/images/htg.png");
-}
-
-#c4 {
-    background-image: url("/assets/images/htg.png");
 }
