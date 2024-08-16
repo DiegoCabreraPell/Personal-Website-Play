@@ -45,4 +45,8 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def aboutPage() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.about())
   }
+
+  def noPage(page: String) = Action { implicit request: Request[AnyContent] =>
+    NotFound(views.html.commons.noPageFound())
+  }
 }
