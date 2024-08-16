@@ -12,7 +12,7 @@
     min-height: 80vh;
     column-gap: 8%;
     row-gap: 4vw;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .card {
