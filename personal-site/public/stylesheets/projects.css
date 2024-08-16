@@ -77,3 +77,9 @@ img.card-background {
     margin-block-end: 0;
     margin-block-start: 0;
 }
+
+.card a.clickable {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
