@@ -9,7 +9,7 @@ class ProjectController @Inject()(val controllerComponents: ControllerComponents
     def show(pName: String) = Action {implicit request: Request[AnyContent] => 
         pName match {
             case "Particle-Engine" => Ok(views.html.projectPages.particleEngine())
-            case _ => Ok(views.html.projects())
+            case _ => Ok(views.html.projectPages.noProjectFound())
         }
     }
 }

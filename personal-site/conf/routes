@@ -9,7 +9,7 @@ GET     /resume                     controllers.HomeController.resume()
 GET     /projects                   controllers.HomeController.projects()
 GET     /about                      controllers.HomeController.aboutPage()
 
-GET     /projects/:projName         controllers.ProjectController.show(projName: String)
+GET     /projects/*projName         controllers.ProjectController.show(projName: String)
 
 # resources
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
