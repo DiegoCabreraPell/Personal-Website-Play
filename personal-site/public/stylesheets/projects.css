@@ -5,11 +5,15 @@
     padding-bottom: 0vh;
     flex-direction: column;
     align-items: center;
-    background-color: #351010;
+    transition: 1000ms;
 }
 
 .wave *{
     fill: #101010
+}
+
+.wave rect {
+    transition: 1000ms;
 }
 
 .wave .layer2 {
