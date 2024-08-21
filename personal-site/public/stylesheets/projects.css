@@ -8,6 +8,26 @@
     background-color: #351010;
 }
 
+.wave *{
+    fill: #101010
+}
+
+.wave .layer2 {
+    opacity: 0.8;
+}
+
+.wave .layer3 {
+    opacity: 0.6;
+}
+
+.wave .layer4 {
+    opacity: 0.4;
+}
+
+.wave .layer5 {
+    opacity: 0.2;
+}
+
 .card-box {
     display: flex;
     flex-wrap: wrap;
