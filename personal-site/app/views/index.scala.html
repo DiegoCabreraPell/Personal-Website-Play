@@ -3,34 +3,50 @@
 @commons.main("Home: Diego Cabrera Pell"){
     @commons.stylesheet("home.css")
 }{
-    <script>
-        document.getElementById("home").classList.add("cur-page")
-    </script>
-    <section>
-        <h1>Who Am I?</h1>
-        
-        <p>
-            Hi! My name is Diego Cabrera Pell, I am a third year computer science honors student at the University of Saskatchewan.
-        </p>
-    </section>
-    <section>
-        <h1>Goals</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, natus ducimus vero laborum sequi et, quaerat sed veniam ratione minima non ab, alias saepe accusantium? Laboriosam suscipit iusto nam cum!</p>
-    </section>
-    <section>
-        <h1>Experience</h1>
-        <p>Laboriosam dolorum enim iste quo ad, quaerat magni quasi nostrum quod consectetur itaque alias beatae possimus autem tempore eum sunt accusamus minima necessitatibus fugit iusto officiis incidunt esse quidem! Soluta!</p>
-    </section>
-    <section>
-        <h1>Education</h1>
-        <p>Mollitia inventore natus provident a minus nemo non expedita, voluptates iste omnis labore quibusdam eaque! Deleniti sapiente iste ipsam alias. Suscipit quidem cumque impedit veniam culpa officia repellendus aperiam cupiditate!</p>
-    </section>
-    <section>
-        <h1>Strengths</h1>
-        <p>Nulla assumenda itaque magnam odio molestiae amet, fugiat pariatur veritatis sapiente obcaecati quae vel impedit cupiditate ullam sunt esse quidem doloribus quas atque, aliquam beatae qui! Commodi nobis possimus perferendis?</p>
-    </section>
-    <section>
-        <h1>Achievements</h1>
-        <p>Libero quod iusto repellat eligendi sapiente sed voluptatibus, nam dignissimos labore vitae soluta fugiat, perferendis cum ex? Nemo qui quis blanditiis omnis deserunt unde recusandae distinctio earum cum, sunt optio.</p>
-    </section>
+    <script>document.getElementById("home").classList.add("cur-page");</script>
+    <div class="center-container">
+        <div class="intro">
+            <div class="whoami horizontal-flex-container">
+                <div class="image-container">
+                    <img class="profile-photo" src="/assets/images/htg.png" alt="">
+                </div>
+                <div>
+                    <h1>Who Am I?</h1>
+                    <p>My name is Diego, and I am a 3rd year honors computers science student at the University of Saskatchewan.
+                        I Love learning and solving problems.
+                        I am happiest when I am able to apply a learned skill in a new way</p>
+                </div>
+            </div>
+            <div class="goals horizontal-flex-container">
+                <h1>Goals</h1>
+                <p>I plan on obtaining a masters and PHD in computer science with the goal of entering intop research</p>
+            </div>
+            <div class="experience horizontal-flex-container">
+                <p>
+                    Volunteering in the software and systems teams at the University of Sastachewan Space Team (USST). Working on the RADSAT-SK project
+                </p>
+                <h1>Experience</h1>
+            </div>
+        </div>
+        <div class="projects">
+            <h1>Projects</h1>
+            <a href="/projects">See All</a>
+            <div class="proj-descript">
+                <a href=""></a>
+                <p></p>
+            </div>
+            <div class="proj-descript">
+                <a href=""></a>
+                <p></p>
+            </div>
+            <div class="proj-descript">
+                <a href=""></a>
+                <p></p>
+            </div>
+            <div class="proj-descript">
+                <a href=""></a>
+                <p></p>
+            </div>
+        </div>
+    </div>
 }

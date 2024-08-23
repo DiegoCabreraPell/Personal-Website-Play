@@ -2,13 +2,51 @@ body {
     margin: 0;
 }
 
-section {
-    position: relative;
+.horizontal-flex-container {
     display: flex;
-    flex-direction: column;
+    
+}
+
+
+.center-container {
+    display: flex;
     align-items: center;
-    min-height: 25%;
-    padding: 5% 20vw;
+    flex-direction: column;
+    width: 100%;
+}
+
+.center-container>div {
+    width: 50%;
+}
+
+.image-container {
+    padding-right: 2vw;
+}
+
+img.profile-photo {
+    aspect-ratio: 1;
+    width: 15vw;
+}
+
+.goals > p {
+    padding-left: 2vw;
+    padding-top: 1vh;
+}
+
+.goals > p {
+    padding-left: 2vw;
+    padding-top: 1vh;
+}
+
+.projects {
+    display: grid;
+}
+
+.projects * {
     text-align: center;
-    font-size: large;
+}
+
+.projects a {
+	text-decoration: none;
+	color: #aaa;
 }
