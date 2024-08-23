@@ -48,5 +48,9 @@ img.profile-photo {
 
 .projects a {
 	text-decoration: none;
-	color: #aaa;
+	color: #eee;
+}
+
+.proj-items * {
+    text-align: left;
 }
