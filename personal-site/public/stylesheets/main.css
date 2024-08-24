@@ -84,3 +84,9 @@ footer a {
 	text-decoration: none;
 	color: #aaa;
 }
+
+.icon {
+	aspect-ratio: 1;
+	width: 25px;
+	translate: -3px 6px
+}
